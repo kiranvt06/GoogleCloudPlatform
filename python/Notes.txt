@@ -1,0 +1,9 @@
+Generate the application-default login and saved to your profile 
+gcloud auth application-default login
+=======================================================
+Or Create a service account, add & download the key as a json file and uploaded to your projet folder.
+then use the below enviornment variable in the python code. ()
+
+import os
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'kvt10_sa_key.json'
+=======================================================
